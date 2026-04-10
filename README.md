@@ -13,7 +13,13 @@
     <h1></h1>
     <br>
 </div>
+## Pourquoi ce patch ?
 
+Par défaut, Viseron envoie la frame complète à YOLO même si le mouvement ne concerne que 5% de l'image. Frigate, lui, envoie uniquement un crop carré autour de la zone de mouvement — l'objet occupe alors toute l'image analysée, ce qui améliore la précision de détection.
+
+Voir le dossier [`region_patch/`](region_patch/) pour l'installation et la configuration.
+
+---
 # Getting started
 
 Getting started is easy! You simply spin up a Docker container and edit the configuration file using the built in web interface.
