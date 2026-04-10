@@ -13,14 +13,18 @@
     <h1></h1>
     <br>
 </div>
-## Pourquoi ce patch ?
+> **Note**: This fork is personally maintained and is not affiliated with the official Viseron project.
+> Patch tested on Viseron **v3.5.2**. Developed with the help of Claude (Anthropic).
+> 🇫🇷 [Version française disponible](region_patch/README.fr.md)
 
-Par défaut, Viseron envoie la frame complète à YOLO même si le mouvement ne concerne que 5% de l'image. Frigate, lui, envoie uniquement un crop carré autour de la zone de mouvement — l'objet occupe alors toute l'image analysée, ce qui améliore la précision de détection.
+---
 
-Voir le dossier [`region_patch/`](region_patch/) pour l'installation et la configuration.
+## Why this patch?
 
-> **Note** : Ce fork est maintenu personnellement et n'est pas affilié au projet officiel Viseron.
-> Patch testé sur Viseron **v3.5.2**.
+By default, Viseron sends the full frame to YOLO even if motion only covers 5% of the image. Frigate instead sends only a square crop around the motion area — the object then fills the entire analyzed image, which improves detection accuracy.
+
+See the [`region_patch/`](region_patch/) folder for installation and configuration.
+
 ---
 # Getting started
 
