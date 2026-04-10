@@ -136,3 +136,4 @@
 !/config
 
 *__pycache*
+!region_patch/
