@@ -19,6 +19,8 @@ Par défaut, Viseron envoie la frame complète à YOLO même si le mouvement ne 
 
 Voir le dossier [`region_patch/`](region_patch/) pour l'installation et la configuration.
 
+> **Note** : Ce fork est maintenu personnellement et n'est pas affilié au projet officiel Viseron.
+> Patch testé sur Viseron **v3.5.2**.
 ---
 # Getting started
 
